@@ -1,0 +1,22 @@
+{
+  "name": "Arg Framework",
+  "description": "PHP MVC Framework",
+  "version": "0.1",
+  "keywords": ["mvc", "framework", "arg", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominik Kinal",
+      "email": "kinaldominik@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "App\\": "app/",
+      "System\\": "system/",
+      "Helpers\\": "helpers/"
+    },
+    "classmap": ["app/", "system/", "helpers/"]
+  }
+}
